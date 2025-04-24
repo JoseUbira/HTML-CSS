@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(44, 47, 51);
+            margin: 0px;
+        }
+        header {
+            background-color: gray;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: lightgrey;
+            padding: 3px;
+            box-shadow: 3px 3px 0px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(0, 255, 0);
+        }
+        main {
+            background-color: rgb(51, 63, 73);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 10px;
+            box-shadow: 4px 4px 0px black;
+        }
+        article {
+            background-color: rgb(134, 151, 165);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: slategrey;
+            margin: -5px;
+        }
+        footer {
+            color: white;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 50%;
+            box-shadow: 3px 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Joãozinho Homosexualismo e Árabes</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Como joãozinho aguentou 2h de rola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, mollitia quaerat ratione, inventore quidem rem molestiae rerum dignissimos assumenda aspernatur deleniti earum quam necessitatibus exercitationem perferendis quas commodi ut eveniet?</p>
+                <aside>
+                    <p>Artigo escrito por ubirabira</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Uberaba</p>
+    </footer>
+<div id="bola"></div>
+</body>
+</html>
